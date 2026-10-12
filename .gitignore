@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Archivos auxiliares de Jupyter
+.ipynb_checkpoints/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Datasets (los notebooks los descargan automáticamente)
+MNIST_data/
+data/
+
+# Modelos entrenados
+*.pt
+*.pth
+
+# Archivos del sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
